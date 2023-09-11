@@ -5,10 +5,10 @@ import ConsoleLog1Handler from "./handler/envia-console-log1.handler";
 import ConsoleLog2Handler from "./handler/envia-console-log2.handler";
 
 import CustomerCreatedEvent from "./customer-created.event";
+import CustomerAddressChangedEvent from "./customer-address-changed.event";
 
 import Customer from "../entity/customer";
 import Address from "../value-object/address";
-import CustomerAddressChangedEvent from "./customer-address-changed.event";
 
 describe('Customer Event', () => {
   it("Should notify event handlers on customer is created", () => {
